@@ -1,0 +1,11 @@
+.line {
+  /*не пошло align-self: center;
+    align-content: center;
+    border: 0cm;
+    border-bottom: 0cm;*/
+  margin-left: 550px;
+  top: 163px;
+  width: 64px;
+  border: 1px solid #d98943;
+  margin-bottom: 30px;
+}
