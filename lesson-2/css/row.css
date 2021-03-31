@@ -2,7 +2,7 @@
   width: 350px;
 }
 .column-title {
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
@@ -11,7 +11,7 @@
   color: #333333;
 }
 .column-item {
-  font-family: "Open Sans";
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
