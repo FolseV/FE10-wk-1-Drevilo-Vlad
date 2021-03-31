@@ -22,6 +22,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 .column-pic {
   border: 1px solid #d98943;
