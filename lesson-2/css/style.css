@@ -1,7 +1,7 @@
-@import url("/FE10-wk-1-Drevilo-Vlad-master/lesson-2/css/awesome.css");
-@import url("/FE10-wk-1-Drevilo-Vlad-master/lesson-2/css/line.css");
-@import url("/FE10-wk-1-Drevilo-Vlad-master/lesson-2/css/item.css");
-@import url("/FE10-wk-1-Drevilo-Vlad-master/lesson-2/css/row.css");
+@import url("../css/awesome.css");
+@import url("../css/line.css");
+@import url("../css/item.css");
+@import url("../css/row.css");
 
 * {
   list-style: none;
