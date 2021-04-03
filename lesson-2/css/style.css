@@ -1,7 +1,7 @@
-@import url("/lesson-2/css/awesome.css");
-@import url("/lesson-2/css/line.css");
-@import url("/lesson-2/css/item.css");
-@import url("/lesson-2/css/row.css");
+@import url("/FE10-wk-1-Drevilo-Vlad-master/lesson-2/css/awesome.css");
+@import url("/FE10-wk-1-Drevilo-Vlad-master/lesson-2/css/line.css");
+@import url("/FE10-wk-1-Drevilo-Vlad-master/lesson-2/css/item.css");
+@import url("/FE10-wk-1-Drevilo-Vlad-master/lesson-2/css/row.css");
 
 * {
   list-style: none;
@@ -15,4 +15,79 @@
   padding: 0 15px;
   padding: 100px 0px 100px 0px;
   text-align: center;
+}
+.maintwo {
+  background-color: #e5e5e5;
+  /* max-width: 1400px; */
+  margin: auto;
+  padding: 0 15px;
+}
+.up {
+  width: 340px;
+  /* height: 50px; */
+  padding-top: 26px;
+  padding-bottom: 8px;
+  background-color: #333333;
+  border: 1px solid #e5e5e5;
+  padding: 10px;
+  color: #ffffff;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: center;
+}
+.mid {
+  width: 340px;
+  /* height: 100px; */
+  padding-top: 26px;
+  padding-bottom: 33px;
+  background-color: #333333;
+  border: 1px solid #e5e5e5;
+  color: #ffffff;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 41px;
+  text-align: center;
+}
+.low {
+  width: 340px;
+  /* height: 50px; */
+  padding-top: 17px;
+  padding-bottom: 14px;
+  background-color: #333333;
+  border: 1px solid #e5e5e5;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+}
+.space {
+  width: 340px;
+  /* height: 40px; */
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #ffffff;
+  border: 1px solid #e5e5e5;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+}
+.up:hover {
+  background-color: #d98943;
+}
+.mid:hover {
+  background-color: #d98943;
+}
+.low:hover {
+  background-color: #d98943;
 }

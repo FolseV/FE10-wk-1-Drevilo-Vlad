@@ -1,0 +1,9 @@
+.header {
+  margin-bottom: 25px;
+}
+.title-upper {
+  text-transform: uppercase;
+  font-size: 36px;
+  color: #212121;
+  font-family: "Raleway";
+}
