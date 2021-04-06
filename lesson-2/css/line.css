@@ -1,12 +1,27 @@
-.line {
-  /*не пошло align-self: center;
+/* .line { 
+  не пошло align-self: center;
     align-content: center;
     border: 0cm;
     border-bottom: 0cm;
-  margin-left: 550px;*/
+  margin-left: 550px;
   margin: auto;
   top: 163px;
   width: 64px;
   border: 1px solid #d98943;
   margin-bottom: 30px;
-}
+ } */
+/* .line1::after {
+  content: "";
+  margin: auto;
+  width: 64px;
+  border: 1px solid #d98943;
+  margin-top: 34px;
+  margin-bottom: 30px;
+  display: block; */
+/* content: "";
+  display: block;
+  width: 64px;
+  height: 2px;
+  margin: 0 auto;
+  background-color: #d98943; */
+/* } */

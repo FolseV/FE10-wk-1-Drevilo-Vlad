@@ -7,3 +7,12 @@
   color: #212121;
   font-family: "Raleway";
 }
+.line1::after {
+  content: "";
+  margin: auto;
+  width: 64px;
+  border: 1px solid #d98943;
+  margin-top: 34px;
+  margin-bottom: 30px;
+  display: block;
+}

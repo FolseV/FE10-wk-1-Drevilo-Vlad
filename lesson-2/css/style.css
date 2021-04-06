@@ -2,6 +2,8 @@
 @import url("../css/line.css");
 @import url("../css/item.css");
 @import url("../css/row.css");
+@import url("/css/card.css");
+@import url("/css/bg.css");
 
 * {
   list-style: none;
@@ -19,6 +21,16 @@
 .maintwo {
   background-color: #e5e5e5;
   /* max-width: 1400px; */
+  margin: auto;
+  padding: 0 15px;
+}
+.mainthree {
+  /* background-color: rgb(194, 235, 204); */
+  /* max-width: 1400px; */
+  margin: auto;
+  padding: 0 15px;
+}
+.mainfour {
   margin: auto;
   padding: 0 15px;
 }
