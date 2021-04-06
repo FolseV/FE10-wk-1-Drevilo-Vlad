@@ -1,11 +1,12 @@
 .mainfour {
-  height: 326px;
+  /* height: 326px; */
   width: 100%;
   background-image: url("/img/bg/background.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   position: relative;
+  background-size: 100% 100%;
 }
 .mainfour::after {
   content: "";

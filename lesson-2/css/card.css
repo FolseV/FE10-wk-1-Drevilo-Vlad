@@ -67,7 +67,7 @@
 }
 .card-name {
   padding-top: 30px;
-  padding-right: 40px;
+  /* padding-right: 40px; */
   font-family: Open Sans;
   font-style: normal;
   font-weight: bold;
@@ -76,6 +76,15 @@
   color: #333333;
 }
 .manager {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  color: #86878b;
+}
+.card-text {
   font-family: Open Sans;
   font-style: normal;
   font-weight: normal;
