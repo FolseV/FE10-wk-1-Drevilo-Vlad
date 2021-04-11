@@ -28,10 +28,12 @@
   padding-bottom: 15px;
 }
 .fab:hover {
+  transform: scale(1.2);
   color: #8891df;
   cursor: pointer;
 }
 .fas:hover {
+  transform: scale(1.2);
   color: #8891df;
   cursor: pointer;
 }

@@ -95,6 +95,12 @@
 }
 .top:hover {
   background-color: #d98943;
+  transform: scale(1.1);
+  cursor: pointer;
+  background-color: #8891df;
+}
+.prices:hover {
+  transform: scaleY(1.1);
 }
 /* .up:hover {
   background-color: #d98943;

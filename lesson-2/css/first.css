@@ -162,6 +162,7 @@ input:focus {
   padding-top: 15px;
 }
 .get-started:hover {
+  transform: scale(1.1);
   cursor: pointer;
   background-color: #8891df;
   border-bottom: 1px dashed #8891df;
