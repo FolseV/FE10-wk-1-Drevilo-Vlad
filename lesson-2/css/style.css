@@ -4,6 +4,10 @@
 @import url("../css/row.css");
 @import url("/css/card.css");
 @import url("/css/bg.css");
+@import url("/css/header.css");
+@import url("/css/first.css");
+@import url("/css/social.css");
+@import url("/css/footer.css");
 
 * {
   list-style: none;

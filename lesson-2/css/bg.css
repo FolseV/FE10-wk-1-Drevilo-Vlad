@@ -60,7 +60,7 @@
   margin: auto;
   width: 135px;
   height: 42px;
-  border: 1px solid #ffffff;
+  /* border: 1px solid #ffffff; */
 }
 .button-download {
   padding: 11px 26px;
@@ -68,7 +68,7 @@
   background-image: none;
   background: transparent;
   background-color: transparent;
-  font-family: Open Sans;
+  font-family: "Open Sans";
   font-style: normal;
   font-weight: 600;
   font-size: 15px;
