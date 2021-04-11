@@ -1,11 +1,13 @@
 .head {
-  margin: auto;
-  /* max-width: 1170px; */
   padding: 20px 110px 20px 110px;
-  display: flex;
-  justify-content: space-between;
   background-color: #000000;
   background-size: auto;
+}
+.head-container {
+  margin: auto;
+  max-width: 1170px;
+  display: flex;
+  justify-content: space-between;
 }
 .logo {
   font-family: "Raleway", sans-serif;
@@ -15,12 +17,16 @@
   line-height: 35px;
   color: #ffffff;
 }
+.logo:hover {
+  cursor: pointer;
+  color: #8891df;
+}
 .it {
   color: #ec7979;
   margin-left: -6px;
-  /* padding-left: -20px; */
 }
 .navigation {
+  padding-top: 5px;
   width: 450px;
   /* order: 0;
   flex-grow: 0;

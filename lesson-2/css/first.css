@@ -141,7 +141,7 @@ input {
   border-bottom-width: thin;
   border-bottom-style: groove;
   border-bottom-color: #bdbdbd;
-  margin-bottom: 20px;
+  margin-bottom: 16px;
   width: 250px;
 }
 input:focus {
