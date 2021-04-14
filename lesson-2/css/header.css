@@ -21,6 +21,8 @@
   transform: scale(1.2);
   cursor: pointer;
   color: #8891df;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
 .it {
   color: #ec7979;
@@ -58,4 +60,6 @@
   color: #8891df;
   border-bottom: 1px dashed #8891df;
   border-left: 1px dashed #8891df;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }

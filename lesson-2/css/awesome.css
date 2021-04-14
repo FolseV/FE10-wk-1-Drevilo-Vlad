@@ -6,6 +6,10 @@
   font-size: 36px;
   color: #212121;
   font-family: "Raleway";
+  font-style: normal;
+  font-weight: normal;
+  line-height: 42px;
+  text-align: center;
 }
 .line1::after {
   content: "";
