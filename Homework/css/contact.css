@@ -1,3 +1,6 @@
+.form {
+  margin-bottom: 95px;
+}
 .contact-form-row {
   display: flex;
   flex-wrap: nowrap;
@@ -32,10 +35,6 @@
   border-bottom: 2px solid #bdbdbd;
   margin-bottom: 16px;
   width: 480px;
-  /* border: 0;
-  border-bottom-width: thin;
-  border-bottom-style: groove;
-  border-bottom-color: #bdbdbd; */
 }
 .form-message {
   font-family: "Open Sans";
@@ -54,23 +53,11 @@ textarea {
   outline: none;
   border: none;
   border-bottom: 2px solid #bdbdbd;
-  /* border: 0;
-  border-bottom-width: thin;
-  border-bottom-style: groove;
-  border-bottom-color: #bdbdbd; */
-  /* margin-bottom: 16px; */
   width: 480px;
 }
 textarea:focus {
   color: #8891df;
   /* background: rgb(4, 4, 43); */
-}
-.submit {
-  /* margin: auto;
-  max-width: 170px;
-  height: 42px;
-  background: #ec7979;
-  border: 1px solid #ffffff; */
 }
 .submit-button {
   background-color: #ec7979;

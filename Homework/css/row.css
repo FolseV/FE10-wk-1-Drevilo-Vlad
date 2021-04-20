@@ -2,9 +2,6 @@
   width: 350px;
   margin: 0px 15px;
 }
-.prices {
-  /* margin: 0px 15px; */
-}
 .column-title {
   font-family: "Open Sans", sans-serif;
   font-style: normal;
@@ -29,16 +26,6 @@
   justify-content: space-between;
   flex-wrap: wrap;
 }
-/* .column-pic {
-  border: 1px solid #d98943;
-  border-radius: 50%;
-  width: 70px;
-  height: 70px;
-  margin: 0px auto 30px;
-}
-img {
-  margin: 20px auto;
-} */
 .column-pic {
   /* 1ый способ */
   width: 70px;
