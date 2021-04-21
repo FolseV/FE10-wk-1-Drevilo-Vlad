@@ -1,0 +1,46 @@
+/*Adaptation 1201*/
+@media (min-width: 1201px) {
+  .price-item:hover {
+    margin-top: -15px;
+  }
+  .mainzero {
+    height: 100vh;
+  }
+}
+/*Adaptation 1200*/
+@media (max-width: 1200px) {
+  .container {
+    max-width: 960px;
+  }
+}
+/*Adaptation 992*/
+
+@media (max-width: 992px) {
+  .container {
+    max-width: 720px;
+  }
+  html {
+    font-size: 15px;
+  }
+}
+
+/*Adaptation 768*/
+@media (max-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+  .container {
+    max-width: 540px;
+  }
+}
+
+/*Adaptation 576*/
+
+@media (max-width: 576px) {
+  html {
+    font-size: 12px;
+  }
+  .container {
+    max-width: 290px;
+  }
+}

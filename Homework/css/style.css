@@ -10,10 +10,18 @@
 @import url("/css/footer.css");
 @import url("/css/contact.css");
 @import url("/css/tabs.css");
+@import url("/css/adaptation.css");
+
+/* @media (max-width 1400px) {
+  .container {
+    max-width: 1170px;
+  }
+} */
 
 * {
   list-style: none;
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 .container {
@@ -24,6 +32,7 @@
   text-align: center;
 }
 .maintwo {
+  width: 100vw;
   background-color: #e5e5e5;
   margin: auto;
   padding: 0 15px;
@@ -100,16 +109,13 @@
   transform: scale(1.1);
   cursor: pointer;
   background-color: #8891df;
+  transition: 0.5s linear;
 }
 .prices:hover {
-  transform: scaleY(1.1);
+  /* transform: scaleY(1.1); */
+  margin-top: -15px;
+  transition: 0.5s linear 0.5s;
 }
-/* .up:hover {
-  background-color: #d98943;
+.prices {
+  transition: 0.3s linear 0.5s;
 }
-.mid:hover {
-  background-color: #d98943;
-}
-.low:hover {
-  background-color: #d98943;
-} */

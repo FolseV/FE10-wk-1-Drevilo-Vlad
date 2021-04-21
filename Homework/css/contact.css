@@ -2,28 +2,37 @@
   margin-bottom: 95px;
 }
 .contact-form-row {
+  margin: 0 -15px;
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-between;
   margin-bottom: 70px;
+  align-items: flex-start;
 }
 .form-item {
   text-align: left;
   display: block;
-  margin-bottom: 16px;
+  /* margin-bottom: 16px; */
   font-family: "Open Sans";
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 19px;
   color: #bdbdbd;
+  margin-top: 40px;
 }
 .row-left {
-  max-width: 450px;
+  width: 45%;
+  margin: 0 15px;
+  overflow: hidden;
+}
+.row-right {
+  width: 45%;
+  margin: 0 15px;
   overflow: hidden;
 }
 .input {
-  font-family: "Open Sans";
+  /* font-family: "Open Sans";
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -34,7 +43,11 @@
   border: none;
   border-bottom: 2px solid #bdbdbd;
   margin-bottom: 16px;
-  width: 480px;
+  width: 480px; */
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #bdbdbd;
+  outline: none;
 }
 .form-message {
   font-family: "Open Sans";
@@ -45,15 +58,21 @@
   color: #bdbdbd;
   text-align: left;
   overflow: hidden;
-  max-width: 480px;
+  /* max-width: 480px; */
 }
 textarea {
-  resize: none;
+  /* resize: none;
   outline-style: none;
   outline: none;
   border: none;
   border-bottom: 2px solid #bdbdbd;
-  width: 480px;
+  width: 480px; */
+  resize: none;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #bdbdbd;
+  outline: none;
+  height: 216px;
 }
 textarea:focus {
   color: #8891df;
@@ -70,7 +89,7 @@ textarea:focus {
   font-size: 15px;
   margin: 4px 2px;
   cursor: pointer;
-  transition-duration: 0.2s;
+  transition: 0.4s ease;
 }
 .submit-button:hover {
   cursor: pointer;
@@ -78,4 +97,5 @@ textarea:focus {
   color: white;
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
     0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  transition: 0.4s ease;
 }

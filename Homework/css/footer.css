@@ -32,9 +32,11 @@
   transform: scale(1.2);
   color: #8891df;
   cursor: pointer;
+  transition: 0.5s all ease;
 }
 .fas:hover {
   transform: scale(1.2);
   color: #8891df;
   cursor: pointer;
+  transition: 0.5s all ease;
 }
