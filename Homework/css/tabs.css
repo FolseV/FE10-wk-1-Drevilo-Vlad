@@ -1,0 +1,87 @@
+.tabs-container {
+  max-width: 1170px;
+  margin: auto;
+  padding: 125px 0px 10px 0px;
+}
+.tabs-row {
+  display: flex;
+  justify-content: space-around;
+}
+.tabs-row__left {
+  width: 10%;
+}
+.tabs-row__center {
+  width: 70%;
+  padding-left: 110px;
+  padding-right: 50px;
+}
+.tabs-row__right {
+  width: 20%;
+}
+.tabs-row__button {
+  width: 110px;
+  height: 110px;
+  color: white;
+  border: none;
+  text-decoration: none;
+  border: 1px solid #333333;
+  background-color: #333333;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  transition-duration: 0.4s;
+
+  font-family: "Open Sans";
+  font-size: 15px;
+  line-height: 20px;
+}
+.tabs-row__button:hover {
+  background-color: #ec7979;
+  border: 1px solid #ec7979;
+  cursor: pointer;
+}
+.tabs-row__title {
+  margin-bottom: 58px;
+  text-transform: uppercase;
+  color: #000000;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 27px;
+}
+.tabs-row-text {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #86878b;
+  margin-bottom: 90px;
+}
+.tabs-text {
+  margin-bottom: 20px;
+}
+.tabs-download {
+  width: 135px;
+  height: 42px;
+  transition-duration: 0.5s;
+}
+.tabs-button-download {
+  padding: 11px 26px;
+  font-family: "Open Sans";
+  background-color: #ec7979;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+  color: #ffffff;
+}
+.tabs-button-download:hover {
+  background-color: #8891df;
+  color: black;
+  cursor: pointer;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
