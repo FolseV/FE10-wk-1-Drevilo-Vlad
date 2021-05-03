@@ -1,7 +1,7 @@
 .mainzero {
-  height: 100vh;
+  /* height: 100vh; */
   margin: auto;
-  width: 100vw;
+  /* width: 100vw; */
   background-image: url(/img/bg/background-1.png);
   background-repeat: no-repeat;
   background-position: center;

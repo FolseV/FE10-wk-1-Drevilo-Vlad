@@ -1,0 +1,77 @@
+.team {
+  padding-top: 100px;
+  margin-bottom: 100px;
+  .container {
+    .team-row {
+      display: flex;
+      justify-content: space-between;
+      .team-card {
+        padding-right: 25px;
+        .team-photo {
+          margin-bottom: 30px;
+        }
+        .team-name {
+          margin-bottom: 16px;
+          color: #2d3033;
+          font-family: "Raleway";
+          font-size: 22px;
+          font-weight: 400;
+          font-style: normal;
+          letter-spacing: normal;
+          line-height: normal;
+          text-align: left;
+        }
+        .team-role {
+          margin-bottom: 30px;
+          color: #e84545;
+          font-family: "Raleway";
+          font-size: 13px;
+          font-weight: 400;
+          font-style: normal;
+          letter-spacing: normal;
+          line-height: normal;
+          text-align: left;
+          text-transform: uppercase;
+        }
+        .team-text {
+          margin-bottom: 30px;
+          color: #6c7279;
+          font-family: "Raleway";
+          font-size: 14px;
+          font-weight: 400;
+          font-style: normal;
+          letter-spacing: normal;
+          line-height: 21px;
+          text-align: left;
+        }
+        .social-block {
+          .social-list {
+            display: flex;
+            justify-content: left;
+            align-items: center;
+            .social-list_item {
+              margin-right: 5px;
+              border: 1px solid #e8ecee;
+              background-color: #ffffff;
+              .fab {
+                padding: 12px;
+                width: 40px;
+                height: 40px;
+                border: 1px solid #e8ecee;
+                background-color: #ffffff;
+                &:hover {
+                  cursor: pointer;
+                  background: #8891df;
+                  border: 1px solid #8891df;
+                  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+                    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+                  transition: 0.5s all ease;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
