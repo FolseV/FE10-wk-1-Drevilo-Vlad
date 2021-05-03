@@ -1,0 +1,72 @@
+.footer {
+  display: grid;
+}
+
+.footer-top {
+  background-color: #3a3e64;
+  padding: 72px 0 87px 0;
+}
+@media (max-width: 992px) {
+  .footer-top {
+    padding: 50px 0 20px 0;
+  }
+}
+@media (max-width: 992px) {
+  .footer-top__block {
+    margin-bottom: 30px;
+  }
+}
+.footer-top__title {
+  margin-bottom: 22px;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.footer-top__text {
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  text-align: center;
+  opacity: 0.5;
+}
+.footer-top .social-list {
+  padding-left: 0;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+.footer-top .social-list_item {
+  margin-right: 6px;
+  border: 2px solid white;
+  padding: 8px 14px;
+}
+.footer-top .social-list .fab {
+  font-size: 16px;
+  color: white;
+  transition: ease-out 0.3s;
+}
+.footer-top .social-list .fab:hover {
+  color: #0a78af;
+  transform: scale(2.5);
+}
+
+.footer-bottom {
+  background-color: #313454;
+  padding: 30px 0;
+}
+.footer-bottom__text {
+  margin-bottom: 4px;
+  color: #808080;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  text-align: center;
+}
+.footer-bottom__text .heart {
+  font-family: "Webdings";
+  color: red;
+}
+.footer-bottom__text .author {
+  color: white;
+}
